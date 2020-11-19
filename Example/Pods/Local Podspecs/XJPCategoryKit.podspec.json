@@ -1,8 +1,8 @@
 {
   "name": "XJPCategoryKit",
   "version": "0.1.0",
-  "summary": "A short description of XJPCategoryKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "提供便利的分类",
+  "description": "提供OC常见的各种分类方法",
   "homepage": "https://github.com/xiejiapei-creator/XJPCategoryKit",
   "license": {
     "type": "MIT",
@@ -15,8 +15,10 @@
     "git": "https://github.com/xiejiapei-creator/XJPCategoryKit.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://www.jianshu.com/u/1ceb4a330607",
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XJPCategoryKit/Classes/**/*"
+  "source_files": "XJPCategoryKit/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h"
 }
