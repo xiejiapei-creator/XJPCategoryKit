@@ -17,7 +17,7 @@
   },
   "social_media_url": "https://www.jianshu.com/u/1ceb4a330607",
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
   "source_files": "XJPCategoryKit/Classes/**/*",
   "public_header_files": "Pod/Classes/**/*.h"
