@@ -1,0 +1,22 @@
+{
+  "name": "XJPCategoryKit",
+  "version": "0.1.0",
+  "summary": "A short description of XJPCategoryKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xiejiapei-creator/XJPCategoryKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiejiapei-creator": "2170928274@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/xiejiapei-creator/XJPCategoryKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XJPCategoryKit/Classes/**/*"
+}
