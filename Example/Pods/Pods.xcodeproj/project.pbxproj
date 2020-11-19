@@ -133,7 +133,7 @@
 		E2058F4A0E7638E420DE96F8DC17AAA9 /* EXPMatchers+raiseWithReason.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA99BCC5B3FF6BC5A6820B203371B24 /* EXPMatchers+raiseWithReason.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E791EEB9E7DA8C5DBDFF80A2BA7A6A4F /* EXPMatchers+respondTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 476A0452433AA98C5A7ECD63C9DAD8C9 /* EXPMatchers+respondTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E969F8D679A40C630D2E855651A49D90 /* EXPMatchers+contain.h in Headers */ = {isa = PBXBuildFile; fileRef = CEBFA44EC572BCBEC15CA8C3DEFF075C /* EXPMatchers+contain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9CE850125664BF300796C8B /* XJPCategoryKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E9CE850025664BF300796C8B /* XJPCategoryKit.h */; };
+		E9CE852125664E4900796C8B /* XJPCategoryKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E9CE852025664E4900796C8B /* XJPCategoryKit.h */; };
 		EC57F974317D76B799CFE2A018B5F9E2 /* EXPMatchers+beNil.m in Sources */ = {isa = PBXBuildFile; fileRef = A833831525D5E4BA797A26D082A9B933 /* EXPMatchers+beNil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F31CCBB90D75D9E5A83545FD95954FFA /* EXPMatchers+beCloseTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 800BA88A2B2AB351294257BFEB46D734 /* EXPMatchers+beCloseTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F3EDE6D241EE2A6D0992A24ACDDBAB35 /* EXPFloatTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E41E3E45D16283667C79A4FA48C31A /* EXPFloatTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -335,7 +335,7 @@
 		E1DA2D06A1237EE72CE03D4ED1C91BB3 /* SPTExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExample.m; path = Specta/Specta/SPTExample.m; sourceTree = "<group>"; };
 		E3E0C6BDD9228B246232C78E1E429CDE /* Specta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-prefix.pch"; sourceTree = "<group>"; };
 		E5C3B5CA959E14C7CA811F47B2D99E5F /* EXPMatchers+beLessThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThan.m"; path = "Expecta/Matchers/EXPMatchers+beLessThan.m"; sourceTree = "<group>"; };
-		E9CE850025664BF300796C8B /* XJPCategoryKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJPCategoryKit.h; sourceTree = "<group>"; };
+		E9CE852025664E4900796C8B /* XJPCategoryKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XJPCategoryKit.h; path = XJPCategoryKit/Classes/XJPCategoryKit.h; sourceTree = "<group>"; };
 		ECD887F43B23BD75688E38AF95452639 /* UIColor+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Custom.h"; path = "XJPCategoryKit/Classes/UIColor+Custom.h"; sourceTree = "<group>"; };
 		ED2F36D66BA083C8B035E136182E3578 /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
 		EEADFB2299B31A680BC1BD285E8872CC /* EXPMatchers+beFalsy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beFalsy.h"; path = "Expecta/Matchers/EXPMatchers+beFalsy.h"; sourceTree = "<group>"; };
@@ -667,7 +667,7 @@
 		F1170114B00CC9FA19560FEFE8721B9A /* XJPCategoryKit */ = {
 			isa = PBXGroup;
 			children = (
-				E9CE850025664BF300796C8B /* XJPCategoryKit.h */,
+				E9CE852025664E4900796C8B /* XJPCategoryKit.h */,
 				E09AA683526021934845E925D0399914 /* NSDate+Custom.h */,
 				C22DBB50625C4E22B45D243B8BB95C5A /* NSDate+Custom.m */,
 				29AA20BF6ECBDB9A360445DB22BFAC3E /* NSObject+Custom.h */,
@@ -790,8 +790,8 @@
 			files = (
 				CAB8E8113B85EAE281B6BA780E28C02B /* NSDate+Custom.h in Headers */,
 				5932E54185EE9D2FCC2479810AF04549 /* NSObject+Custom.h in Headers */,
+				E9CE852125664E4900796C8B /* XJPCategoryKit.h in Headers */,
 				149BEEE7AF8AB3B3AB8DD82522DF1435 /* NSString+Custom.h in Headers */,
-				E9CE850125664BF300796C8B /* XJPCategoryKit.h in Headers */,
 				A2E7891E3DB0092AF91EE8906E7D134A /* UIColor+Custom.h in Headers */,
 				988CBFE2893EA120960002AB24F1EF14 /* UIImage+Custom.h in Headers */,
 				48EAE8DFE5F56377F6E5424F305E7EBA /* UILabel+Custom.h in Headers */,
