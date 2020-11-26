@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XJPCategoryKit'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = '提供便利的分类'
   s.description      = <<-DESC
 提供OC常见的各种分类方法
@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'XJPCategoryKit/Classes/**/*'
-  s.public_header_files = 'Pod/Classes/XJPCategoryKit.h'
+  s.public_header_files = 'XJPCategoryKit/Classes/XJPCategoryKit.h'
 
 end
