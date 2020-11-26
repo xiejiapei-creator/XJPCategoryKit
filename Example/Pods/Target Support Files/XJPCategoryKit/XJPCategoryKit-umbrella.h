@@ -10,16 +10,6 @@
 #endif
 #endif
 
-#import "NSDate+Custom.h"
-#import "NSObject+Custom.h"
-#import "NSString+Custom.h"
-#import "UIColor+Custom.h"
-#import "UIImage+Custom.h"
-#import "UILabel+Custom.h"
-#import "UIScreen+Custom.h"
-#import "UITextField+Custom.h"
-#import "UIView+Custom.h"
-#import "UIViewController+Custom.h"
 #import "XJPCategoryKit.h"
 
 FOUNDATION_EXPORT double XJPCategoryKitVersionNumber;
