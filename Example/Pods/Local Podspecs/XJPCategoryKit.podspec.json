@@ -1,6 +1,6 @@
 {
   "name": "XJPCategoryKit",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "提供便利的分类",
   "description": "提供OC常见的各种分类方法",
   "homepage": "https://github.com/xiejiapei-creator/XJPCategoryKit",
@@ -13,12 +13,12 @@
   },
   "source": {
     "git": "https://github.com/xiejiapei-creator/XJPCategoryKit.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "social_media_url": "https://www.jianshu.com/u/1ceb4a330607",
   "platforms": {
     "ios": "10.0"
   },
   "source_files": "XJPCategoryKit/Classes/**/*",
-  "public_header_files": "Pod/Classes/**/*.h"
+  "public_header_files": "Pod/Classes/XJPCategoryKit.h"
 }

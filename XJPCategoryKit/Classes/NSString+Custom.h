@@ -48,7 +48,19 @@ NS_ASSUME_NONNULL_BEGIN
 /// 删除字符串中的末尾字符
 - (NSString *)deleteLastCharacter;
 
+#pragma mark - 正则表达式校验
 
+/**校验字符是否金额。123.这种以小数点结尾的浮点数可以通过校验！
+ * @param integerLength 整数部分最大长度,需要 >= 1
+ * @param decimalLenth 小数部分最大长度
+ */
+- (BOOL)checkPrice:(NSUInteger)integerLength decimalLenth:(NSUInteger)decimalLenth;
+
+/** 校验是否纯数字 */
+- (BOOL)checkIsNumber;
+
+/** 校验是否仅包含数字和大小写字母 */
+- (BOOL)checkIsLettersAndNumbers;
 
 
 @end

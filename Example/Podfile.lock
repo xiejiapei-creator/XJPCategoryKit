@@ -1,7 +1,7 @@
 PODS:
   - Expecta (1.0.6)
   - Specta (1.0.7)
-  - XJPCategoryKit (0.1.0)
+  - XJPCategoryKit (1.0.0)
 
 DEPENDENCIES:
   - Expecta
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
-  XJPCategoryKit: bd4398693ebfda71ab1b2cbfcd67d623432ad6f1
+  XJPCategoryKit: 45f876d61b47a89a3da025d209330d0b7a2c4c81
 
 PODFILE CHECKSUM: 8dfe85e76db5d747c5eef0894cb37bdcc0608cb5
 

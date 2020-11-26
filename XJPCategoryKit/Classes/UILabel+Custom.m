@@ -26,4 +26,45 @@
     [self sizeToFit];
 }
 
+// 高亮显示某一个特定的子串
+- (void)setHighlightfullString:(NSString *)fullString lightString:(NSString *)lightString lightColor:(UIColor *)color lightFont:(UIFont *)font
+{
+    if (fullString == nil || [fullString isEqualToString:@""])
+    {
+        return;
+    }
+    
+    NSMutableAttributedString *mutableAttributedStr = [[NSMutableAttributedString alloc] initWithString:fullString];
+    if (lightString == nil || [lightString isEqualToString:@""])
+    {
+        [self setAttributedText:mutableAttributedStr];
+    }
+    
+    NSRange range = [[fullString uppercaseString] rangeOfString:[lightString uppercaseString]];
+    if (color == nil)
+    {
+        color = [UIColor redColor];
+    }
+    if (font)
+    {
+        [mutableAttributedStr addAttribute:NSFontAttributeName value:font range:range];
+    }
+    [mutableAttributedStr addAttribute:NSForegroundColorAttributeName value:color range:range];
+    [self setAttributedText:mutableAttributedStr];
+}
+
+// 当特长的时候 降低一下优先级
+- (void)lowPriority
+{
+    [self setContentCompressionResistancePriority:UILayoutPriorityDefaultLow forAxis:UILayoutConstraintAxisHorizontal];
+    [self setContentHuggingPriority:UILayoutPriorityDefaultLow forAxis:UILayoutConstraintAxisHorizontal];
+}
+
+// 当特长的时候 固定不被拉伸 也不被压缩
+- (void)highPriority
+{
+    [self setContentCompressionResistancePriority:UILayoutPriorityDefaultHigh forAxis:UILayoutConstraintAxisHorizontal];
+    [self setContentHuggingPriority:UILayoutPriorityDefaultHigh forAxis:UILayoutConstraintAxisHorizontal];
+}
+
 @end

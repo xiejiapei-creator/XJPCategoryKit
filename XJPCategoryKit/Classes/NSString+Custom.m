@@ -115,4 +115,33 @@
     return [self substringToIndexSafe:self.length - 1];
 }
 
+#pragma mark - 正则表达式校验
+
+- (BOOL)evaluateWithRegexString:(NSString *)regexString
+{
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regexString];
+    return [predicate evaluateWithObject:self];
+}
+
+// 校验字符是否金额。123.这种以小数点结尾的浮点数可以通过校验！
+- (BOOL)checkPrice:(NSUInteger)integerLength decimalLenth:(NSUInteger)decimalLenth
+{
+    NSString *regex = [NSString stringWithFormat:@"^\\d{1,%ld}(\\.\\d{0,%ld})?$", integerLength, decimalLenth];
+    return [self evaluateWithRegexString:regex];
+}
+
+// 校验是否纯数字
+- (BOOL)checkIsNumber
+{
+    NSString *regex = @"^[0-9]*$";
+    return [self evaluateWithRegexString:regex];
+}
+
+// 校验是否仅包含数字和大小写字母
+- (BOOL)checkIsLettersAndNumbers
+{
+    NSString *regex = @"^[A-Za-z0-9]+$";
+    return [self evaluateWithRegexString:regex];
+}
+
 @end

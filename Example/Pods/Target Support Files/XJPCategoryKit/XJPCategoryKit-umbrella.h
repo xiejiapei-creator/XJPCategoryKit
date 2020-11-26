@@ -20,6 +20,7 @@
 #import "UITextField+Custom.h"
 #import "UIView+Custom.h"
 #import "UIViewController+Custom.h"
+#import "XJPCategoryKit.h"
 
 FOUNDATION_EXPORT double XJPCategoryKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char XJPCategoryKitVersionString[];

@@ -7,7 +7,7 @@
 //
 
 #import "XJPViewController.h"
-#import <NSDate+Custom.h>
+#import <XJPCategoryKit.h>
 
 @interface XJPViewController ()
 
@@ -18,7 +18,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    // 判断一个字符串是否都是纯数字
+    NSString *testString = @"123456";
+    if ([testString judgeIsPureInt])
+    {
+        NSLog(@"该字符串为纯数字，说明生成的库可用");
+    }
 }
 
 @end
