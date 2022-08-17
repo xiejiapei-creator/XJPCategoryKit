@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XJPCategoryKit'
-  s.version          = '1.1.2'
+  s.version          = '1.1.3'
   s.summary          = '提供便利的分类'
   s.description      = <<-DESC
 提供OC常见的各种分类方法
