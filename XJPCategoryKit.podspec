@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/xiejiapei-creator/XJPCategoryKit.git', :tag => s.version.to_s }
   s.social_media_url   = "https://www.jianshu.com/u/1ceb4a330607"
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '1.1.1'
 
   s.source_files = 'XJPCategoryKit/Classes/**/*'
   s.public_header_files = 'XJPCategoryKit/Classes/XJPCategoryKit.h'
