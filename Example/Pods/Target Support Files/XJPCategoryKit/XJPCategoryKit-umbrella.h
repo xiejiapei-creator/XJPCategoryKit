@@ -60,6 +60,7 @@
 #import "ICubismModelSetting.hpp"
 #import "Live2DCubismCore.hpp"
 #import "stb_image.h"
+#import "Live2DCubismCore.h"
 #import "L2DAppDefine.h"
 #import "L2DCubism.h"
 #import "L2DHelper.h"

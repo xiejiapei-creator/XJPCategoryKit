@@ -7,7 +7,7 @@
 
 #import "L2DMatrix44Bridge.h"
 #import <CubismFramework.hpp>
-#import <Math/CubismMatrix44.hpp>
+#import <CubismMatrix44.hpp>
 
 @interface L2DMatrix44Bridge () {
     Csm::CubismMatrix44 *_viewMatrix;

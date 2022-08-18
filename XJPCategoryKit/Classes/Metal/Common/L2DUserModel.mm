@@ -14,11 +14,11 @@
 #import "L2DAppDefine.h"
 #import "L2DHelper.h"
 #import <CubismDefaultParameterId.hpp>
-#import <Utils/CubismString.hpp>
-#import <Motion/CubismMotion.hpp>
-#import <Rendering/OpenGL/CubismRenderer_OpenGLES2.hpp>
+#import <CubismString.hpp>
+#import <CubismMotion.hpp>
+#import <CubismRenderer_OpenGLES2.hpp>
 #import "L2DMatrix44Bridge.h"
-#import <Math/CubismMatrix44.hpp>
+#import <CubismMatrix44.hpp>
 
 using namespace ::L2DAppDefine;
 using namespace Live2D::Cubism::Core;
