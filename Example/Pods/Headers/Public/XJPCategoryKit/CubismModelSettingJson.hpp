@@ -1,0 +1,1 @@
+../../../../../XJPCategoryKit/Classes/Framework/CubismModelSettingJson.hpp

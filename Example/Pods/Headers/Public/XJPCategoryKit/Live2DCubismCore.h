@@ -1,0 +1,1 @@
+../../../../../XJPCategoryKit/Classes/Live2DCubismCore.h

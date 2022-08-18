@@ -1,0 +1,1 @@
+../../../../../XJPCategoryKit/Classes/Metal/KGMetalLive2DView.h

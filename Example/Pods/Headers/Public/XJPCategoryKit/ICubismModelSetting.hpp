@@ -1,0 +1,1 @@
+../../../../../XJPCategoryKit/Classes/Framework/ICubismModelSetting.hpp

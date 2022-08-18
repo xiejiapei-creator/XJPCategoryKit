@@ -1,0 +1,1 @@
+../../../../../XJPCategoryKit/Classes/Framework/Rendering/OpenGL/CubismRenderer_OpenGLES2.hpp

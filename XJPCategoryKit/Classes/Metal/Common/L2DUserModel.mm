@@ -573,31 +573,31 @@ static void FinishedMotion(Csm::ACubismMotion *self) {
     }
 }
 
-//- (void)drawModel {
-//    if (_model == NULL) {
-//        return;
-//    }
-//
-//    _model->GetRenderer<Rendering::CubismRenderer_OpenGLES2>()->DrawModel();
-//}
+- (void)drawModel {
+    if (_model == NULL) {
+        return;
+    }
 
-//- (void)drawModelWithBridge:(L2DMatrix44Bridge *)bridge {
-//    if (_model == NULL) {
-//        return;
-//    }
-//
-//    Csm::CubismMatrix44 matrix;
-//
-//    if (bridge.getArray != NULL) {
-//        matrix.SetMatrix(bridge.getArray);
-//    }
-//
-//    matrix.MultiplyByMatrix(_model->_modelMatrix);
-//
-//    _model->GetRenderer<Rendering::CubismRenderer_OpenGLES2>()->SetMvpMatrix(&matrix);
-//
-//    [self drawModel];
-//}
+    _model->GetRenderer<Rendering::CubismRenderer_OpenGLES2>()->DrawModel();
+}
+
+- (void)drawModelWithBridge:(L2DMatrix44Bridge *)bridge {
+    if (_model == NULL) {
+        return;
+    }
+
+    Csm::CubismMatrix44 matrix;
+
+    if (bridge.getArray != NULL) {
+        matrix.SetMatrix(bridge.getArray);
+    }
+
+    matrix.MultiplyByMatrix(_model->_modelMatrix);
+
+    _model->GetRenderer<Rendering::CubismRenderer_OpenGLES2>()->SetMvpMatrix(&matrix);
+
+    [self drawModel];
+}
 
 - (void)updateWithDeltaTime:(NSTimeInterval)dt {
 
