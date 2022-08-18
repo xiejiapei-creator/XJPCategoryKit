@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Copyright(c) Live2D Inc. All rights reserved.
  *
  * Use of this source code is governed by the Live2D Open Software license
@@ -7,12 +7,12 @@
 
 #pragma once
 
-#include "../CubismRenderer.hpp"
+#include "CubismRenderer.hpp"
 #include "CubismFramework.hpp"
 #include "CubismOffscreenSurface_OpenGLES2.hpp"
-#include "Type/csmVector.hpp"
-#include "Type/csmRectF.hpp"
-#include "Type/csmMap.hpp"
+#include "csmVector.hpp"
+#include "csmRectF.hpp"
+#include "csmMap.hpp"
 
 #ifdef CSM_TARGET_ANDROID_ES2
 #include <jni.h>

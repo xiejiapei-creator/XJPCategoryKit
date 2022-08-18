@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7D9163F9759B03DD6B9F696D /* Pods_XJPCategoryKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A20833723154662FF390E0A /* Pods_XJPCategoryKit_Example.framework */; };
+		E95DA7EE28AE20E500AC2832 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E95DA7ED28AE20E500AC2832 /* OpenGLES.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		7DA7DD0A867AF56A53218CBC /* Pods_XJPCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XJPCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F49160669F43557A35AFB9C /* XJPCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XJPCategoryKit.podspec; path = ../XJPCategoryKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E7D11B7126C575D32042997 /* Pods-XJPCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJPCategoryKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-XJPCategoryKit_Tests/Pods-XJPCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E95DA7ED28AE20E500AC2832 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		F317C4017671348752FDC13A /* Pods-XJPCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJPCategoryKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-XJPCategoryKit_Example/Pods-XJPCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E95DA7EE28AE20E500AC2832 /* OpenGLES.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -117,6 +120,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E95DA7ED28AE20E500AC2832 /* OpenGLES.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,

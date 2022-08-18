@@ -46,6 +46,8 @@
 #import "CubismPhysicsInternal.hpp"
 #import "CubismPhysicsJson.hpp"
 #import "CubismRenderer.hpp"
+#import "CubismOffscreenSurface_OpenGLES2.hpp"
+#import "CubismRenderer_OpenGLES2.hpp"
 #import "csmMap.hpp"
 #import "csmRectF.hpp"
 #import "csmString.hpp"
