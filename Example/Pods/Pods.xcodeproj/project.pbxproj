@@ -131,6 +131,7 @@
 		E0DFB89DC55E931504AB97339D665709 /* UILabel+Custom.h in Headers */ = {isa = PBXBuildFile; fileRef = B26D543327B5AD5C1BB615D6E642F398 /* UILabel+Custom.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1B49521C17B05DC91218560F28C1FE4 /* EXPMatchers+postNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F9ADBDA4B3EBAE6C43B435A2D5E5F1 /* EXPMatchers+postNotification.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E8EAF4B0AD5FCCAFC0F28F515925D60D /* Specta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68C600495790C3CA74CAF7323014D0B6 /* Specta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E96B260B28ADE04100678943 /* wang.mm in Sources */ = {isa = PBXBuildFile; fileRef = E96B260A28ADE04100678943 /* wang.mm */; };
 		E96C5E17E9BEFCBC4D172538F860816E /* EXPDoubleTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A17CE1A7932CB17BE133F7EE8F77D70 /* EXPDoubleTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAD692C6493916D4C67E6F4F3B95EC08 /* EXPExpect.h in Headers */ = {isa = PBXBuildFile; fileRef = A2007DAF76851C515B41D1AAEE130286 /* EXPExpect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBE25E9DC9EC64BE49E9B98CB3CA7740 /* EXPBlockDefinedMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE3433972F32B363968995F5E99D215 /* EXPBlockDefinedMatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -200,7 +201,7 @@
 		11EC883C400AD41FE51412F3FAD7D2BE /* Pods-XJPCategoryKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XJPCategoryKit_Tests.modulemap"; sourceTree = "<group>"; };
 		1218DB33FF4977A659F76DFBEFD4F1D4 /* Expecta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.debug.xcconfig; sourceTree = "<group>"; };
 		1239F8C8F3FDFBF8B8D916ED30DCB69E /* UIButton+Custom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Custom.m"; path = "XJPCategoryKit/Classes/UIButton+Custom.m"; sourceTree = "<group>"; };
-		13747D13E469369E9A0F411869611721 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		13747D13E469369E9A0F411869611721 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		15B13B063AA97C48C9010C298AECBDDA /* Specta */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Specta; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		170E0668E9008665F7373053CD0FF6A1 /* Pods-XJPCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XJPCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1720DD77632119A9AE92F1EDE0507651 /* SPTExcludeGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExcludeGlobalBeforeAfterEach.h; path = Specta/Specta/SPTExcludeGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
@@ -224,17 +225,17 @@
 		332AF7E3BE22041FF1B2982C5A4B539A /* EXPUnsupportedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPUnsupportedObject.m; path = Expecta/EXPUnsupportedObject.m; sourceTree = "<group>"; };
 		33F059DBE441DAE38975CE466B195DEB /* UIView+Custom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Custom.m"; path = "XJPCategoryKit/Classes/UIView+Custom.m"; sourceTree = "<group>"; };
 		340D2601B4668BC30CB14F78C2A7E622 /* EXPMatchers+beKindOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beKindOf.m"; path = "Expecta/Matchers/EXPMatchers+beKindOf.m"; sourceTree = "<group>"; };
-		35964F1630C25610A780F07A1BCDADC8 /* xiejiapei.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = xiejiapei.mm; path = XJPCategoryKit/Classes/xiejiapei.mm; sourceTree = "<group>"; };
+		35964F1630C25610A780F07A1BCDADC8 /* xiejiapei.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = xiejiapei.mm; path = XJPCategoryKit/Classes/xiejiapei.mm; sourceTree = "<group>"; };
 		3B7698BC14348D11DB5988D50723090E /* Specta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.release.xcconfig; sourceTree = "<group>"; };
 		3C27EE78E00DC70D7E2173E0F1F650ED /* XJPCategoryKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XJPCategoryKit.release.xcconfig; sourceTree = "<group>"; };
 		3DC7CBE2D91391DC801DA0B2A7140233 /* Pods-XJPCategoryKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XJPCategoryKit_Example.modulemap"; sourceTree = "<group>"; };
 		3FA478E11912496B0659E69B4A81064D /* Pods-XJPCategoryKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XJPCategoryKit_Example-dummy.m"; sourceTree = "<group>"; };
-		3FAB1C9B4D7147733125A8D313F6A7D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3FAB1C9B4D7147733125A8D313F6A7D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		418665583867CCAFAE1E08A59285672D /* XCTestCase+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+Specta.m"; path = "Specta/Specta/XCTestCase+Specta.m"; sourceTree = "<group>"; };
 		4195EFBA924A70AE9B85B16E656B1895 /* ExpectaObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaObject.h; path = Expecta/ExpectaObject.h; sourceTree = "<group>"; };
 		42B93F2DD6965BA1E0D5FCD711C88900 /* NSDate+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Custom.h"; path = "XJPCategoryKit/Classes/NSDate+Custom.h"; sourceTree = "<group>"; };
 		43E819FBEBA6827A9321DFDABFAEC8F7 /* Specta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Specta-dummy.m"; sourceTree = "<group>"; };
-		449749C3A9998F59ACEA3A42B541FE05 /* XJPCategoryKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XJPCategoryKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		449749C3A9998F59ACEA3A42B541FE05 /* XJPCategoryKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XJPCategoryKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		45E563E2BFF92AAD6F6ABCC1D637A29C /* SpectaDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaDSL.h; path = Specta/Specta/SpectaDSL.h; sourceTree = "<group>"; };
 		475AF19C062CE47C7F546F15A517720F /* XJPCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XJPCategoryKit-dummy.m"; sourceTree = "<group>"; };
 		476A0452433AA98C5A7ECD63C9DAD8C9 /* EXPMatchers+respondTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+respondTo.h"; path = "Expecta/Matchers/EXPMatchers+respondTo.h"; sourceTree = "<group>"; };
@@ -296,7 +297,7 @@
 		99F1B35F2C7094BC5D5A050D1F42CF11 /* Pods-XJPCategoryKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XJPCategoryKit_Example"; path = Pods_XJPCategoryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A56DDB4B298574F74E70FBE7F1634AF /* EXPMatchers+beIdenticalTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beIdenticalTo.h"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.h"; sourceTree = "<group>"; };
 		9B57B88C0800B54AE909F3FC115E3BA0 /* Pods-XJPCategoryKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XJPCategoryKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DC7A7ADB56DA2F05D92510AEC19B1ED /* UITextField+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+Custom.h"; path = "XJPCategoryKit/Classes/UITextField+Custom.h"; sourceTree = "<group>"; };
 		9DDFAD5DB99C9F5E54B7B0063AB8C8BE /* Specta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Specta.modulemap; sourceTree = "<group>"; };
 		A2007DAF76851C515B41D1AAEE130286 /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = Expecta/EXPExpect.h; sourceTree = "<group>"; };
@@ -344,6 +345,7 @@
 		E3B8FADC4B27A74EBC839773861A76AE /* XJPCategoryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XJPCategoryKit-Info.plist"; sourceTree = "<group>"; };
 		E3E0C6BDD9228B246232C78E1E429CDE /* Specta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-prefix.pch"; sourceTree = "<group>"; };
 		E5C3B5CA959E14C7CA811F47B2D99E5F /* EXPMatchers+beLessThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThan.m"; path = "Expecta/Matchers/EXPMatchers+beLessThan.m"; sourceTree = "<group>"; };
+		E96B260A28ADE04100678943 /* wang.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = wang.mm; path = XJPCategoryKit/Classes/wang.mm; sourceTree = "<group>"; };
 		ED2F36D66BA083C8B035E136182E3578 /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
 		EEADFB2299B31A680BC1BD285E8872CC /* EXPMatchers+beFalsy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beFalsy.h"; path = "Expecta/Matchers/EXPMatchers+beFalsy.h"; sourceTree = "<group>"; };
 		EEB4B550FC65020C333C0E6264A7BE18 /* EXPMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcher.h; path = Expecta/EXPMatcher.h; sourceTree = "<group>"; };
@@ -537,7 +539,6 @@
 				A6785D611ED60D8B0EC004F4E7479B16 /* NSValue+Expecta.m */,
 				896F33B5B663753F7481CA1670FF26F9 /* Support Files */,
 			);
-			name = Expecta;
 			path = Expecta;
 			sourceTree = "<group>";
 		};
@@ -568,6 +569,7 @@
 				33F059DBE441DAE38975CE466B195DEB /* UIView+Custom.m */,
 				A2AE891950E798A6921083C6FE342CCC /* UIViewController+Custom.h */,
 				BE21B8AEFD4CCF38160AD7A8486B7381 /* UIViewController+Custom.m */,
+				E96B260A28ADE04100678943 /* wang.mm */,
 				35964F1630C25610A780F07A1BCDADC8 /* xiejiapei.mm */,
 				A208153A8376F57E7BB63EB307A221E3 /* Pod */,
 				8797563DFC9A78C7865EA54E5D6BEF7C /* Support Files */,
@@ -618,7 +620,6 @@
 				418665583867CCAFAE1E08A59285672D /* XCTestCase+Specta.m */,
 				34E9BD7A23B916528514B2A751EB2C9B /* Support Files */,
 			);
-			name = Specta;
 			path = Specta;
 			sourceTree = "<group>";
 		};
@@ -1015,6 +1016,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E96B260B28ADE04100678943 /* wang.mm in Sources */,
 				00FF469AB9B778CF2887ECE4EE198FC8 /* NSDate+Custom.m in Sources */,
 				397C2A12C31FCD7EF3103BE186294FBC /* NSObject+Custom.m in Sources */,
 				95D2E7FBF81679D9119E07A1BBCE0CB4 /* NSString+Custom.m in Sources */,
@@ -1292,8 +1294,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
