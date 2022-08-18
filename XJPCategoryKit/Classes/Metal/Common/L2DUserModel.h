@@ -17,8 +17,8 @@
 
 - (instancetype)initWithJsonDir:(NSString *)dirName mocJsonName:(NSString *)mocJsonName;
 
-/// 如果使用 OpenGLES 渲染需要
-- (void)createRenderer;
+///// 如果使用 OpenGLES 渲染需要
+//- (void)createRenderer;
 
 /// 画布大小
 - (CGSize)modelSize;
@@ -56,9 +56,9 @@
 
 - (void)updateWithDeltaTime:(NSTimeInterval)dt;
 
-/// 如果使用 OpenGLES 渲染需要
-- (void)drawModel;
-- (void)drawModelWithBridge:(L2DMatrix44Bridge *)bridge;
+///// 如果使用 OpenGLES 渲染需要
+//- (void)drawModel;
+//- (void)drawModelWithBridge:(L2DMatrix44Bridge *)bridge;
 
 /**
  * @brief   画面をドラッグしたときの処理

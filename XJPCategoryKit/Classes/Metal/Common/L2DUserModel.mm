@@ -16,7 +16,6 @@
 #import <CubismDefaultParameterId.hpp>
 #import <CubismString.hpp>
 #import <CubismMotion.hpp>
-#import <CubismRenderer_OpenGLES2.hpp>
 #import "L2DMatrix44Bridge.h"
 #import <CubismMatrix44.hpp>
 
@@ -180,9 +179,9 @@ using namespace Live2D::Cubism::Framework::DefaultParameterId;
     return self;
 }
 
-- (void)createRenderer {
-    self.userModel->CreateRenderer();
-}
+//- (void)createRenderer {
+//    self.userModel->CreateRenderer();
+//}
 
 - (void)dealloc {
     NSLog(@"L2DUserModel dealloc - %p", self);
@@ -574,31 +573,31 @@ static void FinishedMotion(Csm::ACubismMotion *self) {
     }
 }
 
-- (void)drawModel {
-    if (_model == NULL) {
-        return;
-    }
+//- (void)drawModel {
+//    if (_model == NULL) {
+//        return;
+//    }
+//
+//    _model->GetRenderer<Rendering::CubismRenderer_OpenGLES2>()->DrawModel();
+//}
 
-    _model->GetRenderer<Rendering::CubismRenderer_OpenGLES2>()->DrawModel();
-}
-
-- (void)drawModelWithBridge:(L2DMatrix44Bridge *)bridge {
-    if (_model == NULL) {
-        return;
-    }
-
-    Csm::CubismMatrix44 matrix;
-
-    if (bridge.getArray != NULL) {
-        matrix.SetMatrix(bridge.getArray);
-    }
-
-    matrix.MultiplyByMatrix(_model->_modelMatrix);
-
-    _model->GetRenderer<Rendering::CubismRenderer_OpenGLES2>()->SetMvpMatrix(&matrix);
-
-    [self drawModel];
-}
+//- (void)drawModelWithBridge:(L2DMatrix44Bridge *)bridge {
+//    if (_model == NULL) {
+//        return;
+//    }
+//
+//    Csm::CubismMatrix44 matrix;
+//
+//    if (bridge.getArray != NULL) {
+//        matrix.SetMatrix(bridge.getArray);
+//    }
+//
+//    matrix.MultiplyByMatrix(_model->_modelMatrix);
+//
+//    _model->GetRenderer<Rendering::CubismRenderer_OpenGLES2>()->SetMvpMatrix(&matrix);
+//
+//    [self drawModel];
+//}
 
 - (void)updateWithDeltaTime:(NSTimeInterval)dt {
 
