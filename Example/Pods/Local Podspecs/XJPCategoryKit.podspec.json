@@ -21,8 +21,5 @@
   },
   "source_files": "XJPCategoryKit/Classes/**/*",
   "public_header_files": "XJPCategoryKit/Classes/XJPCategoryKit.h",
-  "frameworks": [
-    "OpenGLES",
-    "YYModel"
-  ]
+  "frameworks": "OpenGLES"
 }
