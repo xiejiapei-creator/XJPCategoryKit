@@ -10,5 +10,6 @@ target 'XJPCategoryKit_Example' do
 
     pod 'Specta'
     pod 'Expecta'
+    pod 'YYModel'
   end
 end
