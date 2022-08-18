@@ -6,7 +6,7 @@
  */
 
 #include "CubismExpressionMotion.hpp"
-#include "Id/CubismIdManager.hpp"
+#include "CubismIdManager.hpp"
 
 namespace Live2D { namespace Cubism { namespace Framework {
 

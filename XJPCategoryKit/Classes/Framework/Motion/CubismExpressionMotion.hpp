@@ -8,8 +8,8 @@
 #pragma once
 
 #include "ACubismMotion.hpp"
-#include "Utils/CubismJson.hpp"
-#include "Model/CubismModel.hpp"
+#include "CubismJson.hpp"
+#include "CubismModel.hpp"
 
 namespace Live2D { namespace Cubism { namespace Framework {
 

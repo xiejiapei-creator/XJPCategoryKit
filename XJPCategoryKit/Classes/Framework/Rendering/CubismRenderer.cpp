@@ -7,7 +7,7 @@
 
 #include "CubismRenderer.hpp"
 #include "CubismFramework.hpp"
-#include "Model/CubismModel.hpp"
+#include "CubismModel.hpp"
 
 //------------ LIVE2D NAMESPACE ------------
 namespace Live2D { namespace Cubism { namespace Framework { namespace Rendering {
