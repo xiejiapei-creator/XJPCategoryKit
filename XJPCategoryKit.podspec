@@ -17,5 +17,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'XJPCategoryKit/Classes/**/*'
   s.public_header_files = 'XJPCategoryKit/Classes/XJPCategoryKit.h'
+  s.frameworks = "OpenGLES", "YYModel"
 
 end
